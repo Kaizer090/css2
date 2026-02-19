@@ -1,76 +1,133 @@
-   body {
-        background-image: url(./Image/background\ img2.png) ;
-        font-size: 25px;
-        
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valorant Website</title>
+  <link rel="stylesheet" href="maps.css">
+  </head>
+  
+ 
 
-    nav {
-        background-color: #212121;
-        padding: 40px 40px;
-        display: flex;
-        align-items: center;
-        
-        
-    }
 
-    nav a {
-        color: red;
-        font-size: 25px;
-        margin-right: 35px;
-        
-    }
 
-    nav .right {
-        margin-left: auto;
-    }
+    <body>
 
-    nav a:hover {
-        color: white;
-        text-decoration: none;
-        
-    }
+        <!-- NAVIGATION -->
+    <nav style="margin-left: -10px; margin-right: -8px; margin-top: -10px;">
+        <a href="valorant1.html">HOME</a>
+        <a href="AGENTS2.html">AGENTS</a>
+        <a href="AMaps3.html">MAPS</a>
+        <a href="AWeapon4.html">WEAPONS</a>
+        <a href="AStrategies5.html">STRATEGIES</a>
+        <a href="Contactus6.html">CONTACT US</a>
+        <a href="https://playvalorant.com/en-us/platform-selection/" class="right">PLAY NOW</a>
+    </nav>
 
-    h1 {
-        padding-left: 150px;
-        padding-top: 50px;
-        color: #0B192C;
-        font-family: Arial, Helvetica, sans-serif;
         
 
-    }
+        <h1>MAPS</h1>
 
-    .title {
-        padding-left: 250px;
-        display: flex;
-        
-    }
+        <div class="container">
+            <div class="title">
+                <h3>ASCENT</h3>
+            </div>
 
-    .paragraph {
-        padding-left: 250px;
-        
-        
-    }
+            <div class="paragraph">
+            <p>An open playground for small wars of position and attrition divide two sides on<br>
+                Ascent. Each site can be fortified by irreversible bomb doors once they're down,<br>
+                you'll have to destroy them or find another way. Yield as little territory as possible.
+            </div>
+            
 
-    .title2 {
-        justify-content: space-between;
-        padding-left: 1200px;
-        display: flex;
-    }
+            <div class="title2">
+                <h3>Callouts:</h3>
+            </div>
 
-    .call {
-        display: flex;
-        float: right;
-        padding-right: 300px;
-        height: 500px;
-    }
+            <div class="call">
+                <img src="./Image/ascentcallouts.png">
+            </div>
 
-    .Map {
-        justify-content: space-between;
-        display: flex;
-        padding-left: 250px;
-        padding-top: 50px;
-    }
+            <div class="Map">
+                <img src="./Image/ascent.png">
+            </div>
 
-   
+            <!-- BIND -->
+             <div class="title">
+                <h3 style="padding-top: 150px;">BIND</h3>
+             </div>
+
+             <div class="paragraph">
+                <p>Two sites. No middle. Gotta pick left or right. What's it going to be then? Both offer<br>
+                    direct paths for attackers and pair of oneway teleporters make it easier to flank.
+                </p>
+             </div>
+
+             <div class="title2">
+                <h3>Callouts:</h3>
+             </div>
+
+             <div class="call">
+                <img src="./Image/Valorant-Bind-map-removebg-preview.png">
+             </div>
+             
+             <div class="Map">
+                <img src="./Image/bind.png">
+             </div>
+
+             <!-- HAVEN -->
+              <div class="title">
+                <h3 style="padding-top: 150px;">HAVEN</h3>
+              </div>
+
+              <div class="paragraph">
+                <p>Beneath a forgotten monastery, a clamour emerges from rival Agents clashing to control three sites.<br>
+                    There's more territory to control, but defenders can use the extra real extate for aggressive pushes.
+                </p>
+              </div>
+
+              <div class="title2">
+                <h3>Callouts:</h3>
+              </div>
+
+              <div class="call">
+                <img src="./Image/haven callout.png">
+              </div>
+
+              <div class="Map">
+                <img src="./Image/havenmap.png">
+              </div>
+
+              <!-- SPLIT -->
+               <div class="title">
+                <h3 style="padding-top: 150px;">SPLIT</h3>
+               </div>
+
+               <div class="paragraph">
+                <p>If you want to go far, you'll have to go up. A pair of sites split by and elevated center<br>
+                    allows for rapid movement using two rope ascenders. Each site is build with a looming<br>
+                    tower vital for control. Remember to watch above before it all blows sky-high.
+                </p>
+               </div>
+
+               <div class="title2">
+                <h3>Callouts:</h3>
+               </div>
+
+               <div class="call">
+                <img src="./Image/splitcall.png">
+               </div>
+
+               <div class="Map">
+                <img src="./Image/splitmap.png">
+               </div>
 
 
+
+    
+
+
+
+
+  </body>
+</html>
