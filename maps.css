@@ -1,0 +1,76 @@
+   body {
+        background-image: url(./Image/background\ img2.png) ;
+        font-size: 25px;
+        
+    }
+
+    nav {
+        background-color: #212121;
+        padding: 28px 35px;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+
+    nav a {
+        color: red;
+        font-size: 25px;
+        margin-right: 35px;
+        
+    }
+
+    nav .right {
+        margin-left: auto;
+    }
+
+    nav a:hover {
+        color: white;
+        text-decoration: none;
+        
+    }
+
+    h1 {
+        padding-left: 150px;
+        padding-top: 50px;
+        color: #0B192C;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+    }
+
+    .title {
+        padding-left: 250px;
+        display: flex;
+        
+    }
+
+    .paragraph {
+        padding-left: 250px;
+        
+        
+    }
+
+    .title2 {
+        justify-content: space-between;
+        padding-left: 1200px;
+        display: flex;
+    }
+
+    .call {
+        display: flex;
+        float: right;
+        padding-right: 300px;
+        height: 500px;
+    }
+
+    .Map {
+        justify-content: space-between;
+        display: flex;
+        padding-left: 250px;
+        padding-top: 50px;
+    }
+
+   
+
+
